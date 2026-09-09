@@ -163,7 +163,7 @@ export default function DashboardPage() {
               <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.89 2 2 2zm6-6v-5c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z" />
               </svg>
-              <div className="notification-dot"></div>
+              <div className="notification-badge">2</div>
             </button>
 
             <div className="header-divider"></div>
@@ -172,6 +172,8 @@ export default function DashboardPage() {
               <div className="balance-label">Your Balance</div>
               <div className="balance-amount">$5.456</div>
             </div>
+
+            <div className="header-divider"></div>
 
             <div className="user-profile">
               <div className="user-avatar">

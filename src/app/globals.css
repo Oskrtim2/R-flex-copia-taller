@@ -249,33 +249,39 @@ body {
 }
 
 .notification-btn {
-  width: 40px;
-  height: 40px;
+  width: 46px;
+  height: 46px;
   border-radius: var(--radius-full);
-  border: none;
-  background: transparent;
+  border: 1px solid var(--border-color);
+  background: var(--bg-white);
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  color: var(--text-primary);
+  color: var(--text-muted);
   position: relative;
 }
 
-.notification-dot {
+.notification-badge {
   position: absolute;
-  top: 8px;
-  right: 8px;
-  width: 9px;
-  height: 9px;
-  background-color: var(--accent-blue);
+  top: 6px;
+  right: 6px;
+  width: 15px;
+  height: 15px;
+  background-color: var(--accent-purple);
+  color: white;
+  font-size: 9px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 50%;
   border: 2px solid var(--bg-white);
 }
 
 .header-divider {
   width: 1px;
-  height: 30px;
+  height: 36px;
   background-color: var(--border-color);
 }
 
