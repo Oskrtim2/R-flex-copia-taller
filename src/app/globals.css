@@ -253,7 +253,7 @@ body {
   height: 40px;
   border-radius: var(--radius-full);
   border: none;
-  background: #f4f7fe;
+  background: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -264,13 +264,13 @@ body {
 
 .notification-dot {
   position: absolute;
-  top: 10px;
-  right: 10px;
-  width: 8px;
-  height: 8px;
+  top: 8px;
+  right: 8px;
+  width: 9px;
+  height: 9px;
   background-color: var(--accent-blue);
   border-radius: 50%;
-  border: 2px solid #f4f7fe;
+  border: 2px solid var(--bg-white);
 }
 
 .header-divider {
